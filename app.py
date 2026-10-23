@@ -17,7 +17,7 @@ import httpx
 from fastapi import FastAPI, Request, APIRouter
 from fastapi.responses import Response
 
-BASE_URL = "https://balloon-carry-humanitarian-dates.trycloudflare.com/a2a"
+BASE_URL = "https://a2a-invoice-agent-tz7y.onrender.com/a2a"
 BASE_PATH = urlparse(BASE_URL).path.rstrip("/")
 # TOKEN = os.environ.get("A2A_TOKEN", "")
 TOKEN = "a2aTOKEN"
